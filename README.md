@@ -1,30 +1,56 @@
+🧮 Simple JavaFX Calculator
+A modern, intuitive calculator built using JavaFX. This desktop application performs basic arithmetic operations with a clean and responsive graphical interface.
 
-# 🧮 Graphical Expression Calculator in Java (Swing)
 
-A GUI-based calculator that can parse and evaluate full arithmetic expressions (including brackets, powers, etc).
+✨ Features
+🧠 Basic Arithmetic: Addition, Subtraction, Multiplication, Division
 
-## 🚀 Features
+🔢 Floating Point Support: Works with decimals (e.g., 3.14 + 2.71)
 
-- ✅ Full expression evaluation: `(2 + 3) * 4 ^ 2`
-- ✅ Basic arithmetic: `+`, `-`, `*`, `/`
-- ✅ Power operator (`^`)
-- ✅ Parentheses support
-- ✅ GUI interface with Swing
+🎯 Error Handling: Prevents division by zero with friendly messages
 
-## 🧱 Requirements
+🎨 Modern UI: Responsive layout and clean design with color-coded buttons
 
-- Java JDK 8 or higher
+🧼 Clear Button: Instantly resets the calculator for new operations
 
-## ⚙️ How to Run
+🛠️ Requirements
+Java JDK 8 or higher
 
-```bash
-javac src/GraphicalCalculator.java
-java src.GraphicalCalculator
-```
+JavaFX SDK (if using JDK below 11)
 
----
+🚀 How to Run
+📁 1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/SimpleJavaFXCalculator.git
+cd SimpleJavaFXCalculator
+🧪 2. Compile and Run
+Option A: From Terminal (JDK 11+)
+bash
+Copy
+Edit
+javac --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls SimpleCalculatorFX.java
+java --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls SimpleCalculatorFX
+Replace /path/to/javafx-sdk with your actual JavaFX SDK location.
 
-## 📄 License
+Option B: From an IDE (Recommended)
+Open project in IntelliJ or Eclipse
 
-This project is under the MIT License.
-# basiccalculator
+Set up JavaFX SDK in project settings
+
+Run SimpleCalculatorFX.java
+
+📸 Screenshot
+(Optional) Add your own screenshot of the app in action.
+
+🧱 Project Structure
+Copy
+Edit
+SimpleJavaFXCalculator/
+├── SimpleCalculatorFX.java
+└── README.md
+📝 License
+This project is licensed under the MIT License.
+Feel free to use, modify, and distribute it.
+
