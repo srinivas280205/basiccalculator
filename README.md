@@ -18,25 +18,6 @@ Java JDK 8 or higher
 
 JavaFX SDK (if using JDK below 11)
 
-🚀 How to Run
-📁 1. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/SimpleJavaFXCalculator.git
-cd SimpleJavaFXCalculator
-🧪 2. Compile and Run
-Option A: From Terminal (JDK 11+)
-bash
-Copy
-Edit
-javac --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls SimpleCalculatorFX.java
-java --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls SimpleCalculatorFX
-Replace /path/to/javafx-sdk with your actual JavaFX SDK location.
-
-Option B: From an IDE (Recommended)
-Open project in IntelliJ or Eclipse
-
 Set up JavaFX SDK in project settings
 
 Run SimpleCalculatorFX.java
