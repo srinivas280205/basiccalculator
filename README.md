@@ -11,10 +11,6 @@ A GUI-based calculator that can parse and evaluate full arithmetic expressions (
 - ✅ Parentheses support
 - ✅ GUI interface with Swing
 
-## 📷 Screenshot
-
-![calculator](https://via.placeholder.com/400x500.png?text=Java+Graphical+Calculator)
-
 ## 🧱 Requirements
 
 - Java JDK 8 or higher
